@@ -1,0 +1,12 @@
+For the needs of the Skopje Marathon, implement a class TeamRace with a static 
+method void findBestTeam(InputStream is, OutputStream os).
+The method reads information from the input stream 
+for allparticipants from an IT company 
+in a 5-kilometer race. For each team participant, the info
+rmation is provided in a new line in the following format:
+ID START_TIME END_TIME (ex. 1234 08:00:05 08:31:26)
+The method should form a team of the best 4 participants from the company and
+ print it to the output stream along with the total running time 
+of the members of the best team. The four best participants should be 
+sorted in ascending order according to their running time.
+Note: In all test cases, there will be at least 4 participants from the company.
